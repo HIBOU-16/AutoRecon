@@ -47,7 +47,7 @@ else:
 		shutil.copytree(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'wordlists'), os.path.join(config['data_dir'], 'wordlists'))
 	if not os.path.exists(os.path.join(config['data_dir'], 'VERSION-' + VERSION)):
 		warn('It looks like the plugins in ' + config['data_dir'] + ' are outdated. Please remove the ' + config['data_dir'] + ' directory and re-run AutoRecon to rebuild them.')
-
+##hellWorld
 #helloWorld
 # Saves current terminal settings so we can restore them.
 terminal_settings = None
