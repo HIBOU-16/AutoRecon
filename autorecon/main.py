@@ -48,7 +48,7 @@ else:
 	if not os.path.exists(os.path.join(config['data_dir'], 'VERSION-' + VERSION)):
 		warn('It looks like the plugins in ' + config['data_dir'] + ' are outdated. Please remove the ' + config['data_dir'] + ' directory and re-run AutoRecon to rebuild them.')
 
-
+#helloWorld
 # Saves current terminal settings so we can restore them.
 terminal_settings = None
 
